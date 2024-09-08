@@ -1,0 +1,13 @@
+p {
+  font-size: 16px;
+  color: #000;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600; /* semi-bold*/
+}
+
+div {
+  width: 600px;
+  height: 1200px;
+  background: url("https://images.pexels.com/photos/25189483/pexels-photo-25189483/free-photo-of-close-up-of-orchids.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}/*# sourceMappingURL=index.css.map */

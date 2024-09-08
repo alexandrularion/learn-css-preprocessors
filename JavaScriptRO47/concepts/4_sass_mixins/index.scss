@@ -1,0 +1,32 @@
+@mixin button($bg-color, $bg-hover-color, $text-color: #fff, $radius: 8px) {
+  background: $bg-color;
+  color: $text-color;
+  border-radius: $radius;
+  padding: {
+    top: 15px;
+    bottom: 15px;
+    left: 25px;
+    right: 25px;
+  }
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: $bg-hover-color;
+  }
+}
+
+.btn-primary {
+  @include button(#ff9900, #cf7c00);
+}
+
+.btn-secondary {
+  @include button(#ccc, #aaa);
+}
+
+.btn-tertiary {
+  @include button(#ff0000, #d70000);
+}

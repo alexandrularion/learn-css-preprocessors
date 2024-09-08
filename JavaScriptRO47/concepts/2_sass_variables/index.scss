@@ -1,0 +1,20 @@
+$text-color: #000;
+$text-size: 16px;
+$background-color: #fff;
+$font-family: Ubuntu, sans-serif;
+$hide: none;
+$background-flower: url("https://images.pexels.com/photos/25189483/pexels-photo-25189483/free-photo-of-close-up-of-orchids.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+p {
+  font-size: $text-size;
+  color: $text-color;
+  font-family: $font-family;
+  font-weight: 600; /* semi-bold*/
+}
+
+div {
+  width: 600px;
+  height: 1200px;
+  background: $background-flower;
+  background-size: cover;
+}
