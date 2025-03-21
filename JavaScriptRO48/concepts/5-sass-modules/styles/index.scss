@@ -1,0 +1,11 @@
+@use "./sass/global";
+@use "./sass/variables";
+
+body {
+  background: variables.$background-color;
+  color: variables.$text-color;
+}
+
+h1 {
+  color: variables.$app-color;
+}

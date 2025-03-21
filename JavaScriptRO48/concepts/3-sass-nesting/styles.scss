@@ -1,0 +1,33 @@
+$primary-bkg-color: #000;
+$secondary-bkg-color: #0f0e0e;
+$body-font-size: 16px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+// selector
+body {
+  // property: value;
+  background-color: $primary-bkg-color;
+  display: flex;
+  width: 100%;
+  height: 100vh; // viewport-height
+  height: 100dvh;
+}
+
+.box-container {
+  width: 300px;
+  height: 300px;
+  background-color: $secondary-bkg-color;
+
+  p {
+    font-size: $body-font-size;
+    color: #fff;
+  }
+  h1 {
+    font-size: 25px;
+    color: #fff;
+  }
+}

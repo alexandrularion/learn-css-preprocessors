@@ -1,0 +1,11 @@
+body {
+  background-color: red;
+}
+
+$main-color: #000;
+$main-size: 30px;
+
+div {
+  background-color: $main-color;
+  font-size: $main-size;
+}
